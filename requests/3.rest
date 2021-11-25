@@ -1,0 +1,38 @@
+### 3.1
+GET http://localhost:3001/api/persons
+
+### 3.2
+GET http://localhost:3001/info
+
+### 3.3
+GET http://localhost:3001/api/persons/6197640e5f03fd307d7bd159
+
+### 3.4
+DELETE http://localhost:3001/api/persons/61977f329c4a31669648913b
+
+### 3.5
+POST  http://localhost:3001/api/persons/
+Content-Type: application/json
+
+{
+    "name": "New guy",
+    "number": "04-420-420420420"
+}
+
+### 3.6
+POST  http://localhost:3001/api/persons/
+Content-Type: application/json
+
+{
+    "number": "04-420-420420420"
+}
+###
+POST  http://localhost:3001/api/persons/
+Content-Type: application/json
+
+{
+    "name": "New guy"
+}
+
+### BONUS TEST
+GET  http://localhost:3001/
